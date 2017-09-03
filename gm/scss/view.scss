@@ -163,8 +163,7 @@
 		border-bottom: 1px solid #aaa;
 	}
 	@include respond-to(tablets){
-		padding-bottom: 15px;
-		border-bottom: 1px solid #aaa;
+
 	}
 }
 .unit_big_info:nth-child(2) img,.unit_big_info:nth-child(4) img{
@@ -177,9 +176,6 @@
 		margin-bottom: 15px;
 	}
 	@include respond-to(small-tablets){
-		margin-bottom: 15px;
-	}
-	@include respond-to(tablets){
 		margin-bottom: 15px;
 	}
 }
@@ -199,8 +195,7 @@
 		float: none;
 	}
 	@include respond-to(tablets){
-		width: 100%;
-		float: none;
+		width: 50%;
 	}
 }
 .unit_big_info .view_option{
@@ -225,9 +220,10 @@
 		padding: 0;
 	}
 	@include respond-to(tablets){
-		width: 100%;
-		float: none;
-		padding: 0;
+		width: 50%;
+		float: left;
+		padding: 0 20px;
+		width:calc(50% - 40px);
 	}
 }
 .unit_big_info .view_option h1{
@@ -238,9 +234,6 @@
 		margin-top: 15px;
 	}
 	@include respond-to(small-tablets){
-		margin-top: 15px;
-	}
-	@include respond-to(tablets){
 		margin-top: 15px;
 	}
 }

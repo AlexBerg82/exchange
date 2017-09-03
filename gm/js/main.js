@@ -20,11 +20,13 @@ $(document).ready(function(){
 			console.log(tmpScrn);
 			if(tmpScrn > 962){
 				$('.menu_unit_big').css("backgroundColor","#fff").css("position","fixed").css("top","0").css("left","10%").css("zIndex","1000");
+				$('.menu_unit_big span').css("backgroundColor","#aaa").css("height","30px").css("marginTop","10px");
 			}
 			if(tmpScrn < 963){
 				$('.menu_unit_big').css("backgroundColor","#fff").css("position","fixed").css("top","0").css("left","0").css("zIndex","1000");
+				$('.menu_unit_big span').css("backgroundColor","#aaa").css("height","30px").css("marginTop","5px");
 			}
-			$('.menu_unit_big span').css("backgroundColor","#aaa").css("height","30px").css("marginTop","12px");
+			
 			$('.menu_unit_big').addClass("sticky");
 		} else {
 			$('.menu_unit_big span').css("backgroundColor","#fff");

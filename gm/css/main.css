@@ -916,10 +916,6 @@ div#t3 a:hover {
     .unit_big_info {
       padding-bottom: 15px;
       border-bottom: 1px solid #aaa; } }
-  @media only screen and (min-width: 768px) and (max-width: 979px) {
-    .unit_big_info {
-      padding-bottom: 15px;
-      border-bottom: 1px solid #aaa; } }
 
 .unit_big_info:nth-child(2) img, .unit_big_info:nth-child(4) img {
   float: left; }
@@ -930,9 +926,6 @@ div#t3 a:hover {
     .unit_big_info:nth-child(2) img, .unit_big_info:nth-child(4) img {
       margin-bottom: 15px; } }
   @media only screen and (min-width: 600px) and (max-width: 767px) {
-    .unit_big_info:nth-child(2) img, .unit_big_info:nth-child(4) img {
-      margin-bottom: 15px; } }
-  @media only screen and (min-width: 768px) and (max-width: 979px) {
     .unit_big_info:nth-child(2) img, .unit_big_info:nth-child(4) img {
       margin-bottom: 15px; } }
 
@@ -952,8 +945,7 @@ div#t3 a:hover {
       float: none; } }
   @media only screen and (min-width: 768px) and (max-width: 979px) {
     .unit_big_info img {
-      width: 100%;
-      float: none; } }
+      width: 50%; } }
 
 .unit_big_info .view_option {
   width: 40%;
@@ -977,9 +969,10 @@ div#t3 a:hover {
       padding: 0; } }
   @media only screen and (min-width: 768px) and (max-width: 979px) {
     .unit_big_info .view_option {
-      width: 100%;
-      float: none;
-      padding: 0; } }
+      width: 50%;
+      float: left;
+      padding: 0 20px;
+      width: calc(50% - 40px); } }
 
 @media only screen and (max-width: 479px) {
   .unit_big_info .view_option h1 {
@@ -990,10 +983,6 @@ div#t3 a:hover {
     margin-top: 15px; } }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-  .unit_big_info .view_option h1 {
-    margin-top: 15px; } }
-
-@media only screen and (min-width: 768px) and (max-width: 979px) {
   .unit_big_info .view_option h1 {
     margin-top: 15px; } }
 
