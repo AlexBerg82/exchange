@@ -6,20 +6,15 @@
 
 /*Slider*/
 .cd-slider-wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 1440px;
-  max-height: 500px;
-  margin: 0 auto;
-  /* hide horizontal scrollbar on IE11 
-  overflow: hidden;*/
-  
- 
+	position: relative;
+	width: 100%;
+	max-width: 1440px;
+	max-height: 500px;
+	margin: 0 auto;
 }
 
 
 .fotorama{
-  margin: 0 auto;
-
+	margin: 0 auto;
 }
 

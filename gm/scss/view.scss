@@ -340,12 +340,28 @@ ul.tabs_front li a {
 	background: #F9F9F9;
 	border: 1px solid #EFEFEF;
 	border-bottom: 1px solid #F9F9F9;
+	
+	@include respond-to(handhelds){
+		padding: 0 3px;
+		font-size: 11px;
+	}
+	@include respond-to(wide-handhelds){
+		padding: 0 3px;
+		font-size: 11px;
+	}
 }
 ul.tabs_front li a:hover {
 	color: #F70;
 	padding: 0 13px;
 	background: #FFFFDF;
 	border: 1px solid #FFCA95;
+	
+	@include respond-to(handhelds){
+		padding: 0 3px;
+	}
+	@include respond-to(wide-handhelds){
+		padding: 0 3px;
+	}
 }
 ul.tabs_front li.tab_active_front a {
 	color: #444;
@@ -353,6 +369,13 @@ ul.tabs_front li.tab_active_front a {
 	padding: 0px 13px 2px;
 	border: 1px solid #DDD;
 	border-bottom: 1px solid #EFEFEF;
+	
+	@include respond-to(handhelds){
+		padding: 0 3px 2px;
+	}
+	@include respond-to(wide-handhelds){
+		padding: 0 3px 2px;
+	}
 }
 .wrapper_front div#t2,
 .wrapper_front div#t3{
@@ -373,6 +396,12 @@ ul.tabs_front li.tab_active_front a {
 /*tables*/
 #t2 table,#t3 table{
 	font-size: 12px;
+}
+#t2 > div,#t3 > div{
+	@include respond-to(handhelds){
+		max-width: 479px;
+		overflow-y: scroll;
+	}
 }
 .marker{
 	text-align: center;
